@@ -10,7 +10,7 @@ const PsychometricTest = () => {
             title: "Generic Psychometric",
             description: "Discover your general personality traits, strengths, and broad career interests based on the RIASEC model.",
             icon: Brain,
-            link: "/psychometric-test/generic",
+            link: "/generic",
             color: "text-purple-600",
             bg: "bg-purple-50"
         },
@@ -18,7 +18,7 @@ const PsychometricTest = () => {
             title: "Engineering Career",
             description: "Tailored for aspiring engineers. Assess your analytical skills, technical aptitude, and engineering domains.",
             icon: Wrench,
-            link: "/psychometric-test/engineering",
+            link: "/engineering",
             color: "text-blue-600",
             bg: "bg-blue-50"
         },
@@ -26,7 +26,7 @@ const PsychometricTest = () => {
             title: "Management (MBA/BBA)",
             description: "Find your fit in the business world. Explore outcomes like HR, Marketing, Finance, and Accountancy.",
             icon: Briefcase,
-            link: "/psychometric-test/management",
+            link: "/management",
             color: "text-green-600",
             bg: "bg-green-50"
         }

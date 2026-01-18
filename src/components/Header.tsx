@@ -66,11 +66,11 @@ export const Header = () => {
                 Access LMS
               </Button>
             </a>
-            <Link to="/register">
+            <a href="https://www.techmiyaedtech.com/register" target="_blank" rel="noopener noreferrer">
               <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
                 Enquire Now
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -119,15 +119,17 @@ export const Header = () => {
                   Access LMS
                 </Button>
               </a>
-              <Link
-                to="/register"
+              <a
+                href="https://www.techmiyaedtech.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
                 className="block w-full mt-2"
               >
                 <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
                   Register Now
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         )}
