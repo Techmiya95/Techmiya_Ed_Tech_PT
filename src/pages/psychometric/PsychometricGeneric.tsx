@@ -207,6 +207,14 @@ const PsychometricGeneric = () => {
                     <p className="mt-4 text-xl text-gray-600">
                         Discover your strengths, personality, and ideal career path.
                     </p>
+                    <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-gray-600 bg-gray-100 rounded-lg py-3 px-4">
+                        <span className="font-semibold text-gray-800">Scale:</span>
+                        <span>1 = Strongly Disagree</span>
+                        <span>2 = Disagree</span>
+                        <span>3 = Neutral</span>
+                        <span>4 = Agree</span>
+                        <span>5 = Strongly Agree</span>
+                    </div>
                 </div>
 
                 {!showResults ? (
